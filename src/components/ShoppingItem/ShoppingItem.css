@@ -1,0 +1,33 @@
+.Price {
+    color: blue;
+}
+.Shopping-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: solid 1px gray;
+    margin-bottom: 6px;
+    padding: 6px;
+}
+.Each-Item {
+    font-size: 15px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large
+}
+
+.Add-Or-Remove-Button-Container {
+    flex-direction: "row";
+     margin-top: 6px;
+}
+
+.Item-Add-Button {
+    background-color: '#05a32a';
+    color: '#ffffff';
+}
+
+.Item-Remove-Button {
+    background-color: '#cf0621';
+    color: '#ffffff';
+
+}
