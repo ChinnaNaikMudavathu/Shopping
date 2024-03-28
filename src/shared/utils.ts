@@ -1,4 +1,3 @@
-import { IShoppingItems } from "../models/ShoppingItems";
 import { SHOPPING_ITEMS, SHOPPING_ITEMS_PRICE } from "./constants";
 
 export const calculateShoppingItemsTotalCost = (itemsInTheBasket: string[]) => {
